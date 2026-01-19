@@ -115,7 +115,8 @@ Differential gene expression analyses were performed for multiple experimental c
 │   └── undifferentiated_USCs/
 ├── WGCNA/
 ├── analysis_of_references/
-└── qPCR/
+├── qPCR/
+└── Imaging/
 </pre>
 
 
