@@ -15,13 +15,14 @@ The repository is organized into the following main folders:
 - `differential_expression/` – differential gene expression analyses  
 - `WGCNA/` – weighted gene co-expression network analysis  
 - `analysis_of_references/` – analyses using external reference datasets  
-- `qPCR/` – quantitative PCR analyses  
+- `qPCR/` – quantitative PCR analyses
+- `Imaging/` – Macros used for spheroid size measurements
 
 ---
 
 ## QC
 
-| Folder / Script | Description |
+| Folder / Scripts | Description |
 |---|---|
 | `QC/*.R` | Quality control of RNA-seq datasets, including filtering, exploratory analyses, and sample-level metrics. |
 
@@ -33,7 +34,7 @@ Differential gene expression analyses were performed for multiple experimental c
 
 ### **all_celltypes**
 
-| Folder / Script | Description |
+| Folder / Scripts | Description |
 |---|---|
 | `differential_expression/all_celltypes/*.R` | Differential expression analysis across all profiled cell types (Undifferentiated, chondrogenic, osteogenic). |
 
@@ -41,7 +42,7 @@ Differential gene expression analyses were performed for multiple experimental c
 
 ### **chondrogenic_USCs**
 
-| Folder / Script | Description |
+| Folder / Scripts | Description |
 |---|---|
 | `differential_expression/chondrogenic_USCs/*.R` | Differential expression analysis of chondrogenically induced urine-derived stem cells (USCs). |
 
@@ -49,7 +50,7 @@ Differential gene expression analyses were performed for multiple experimental c
 
 ### **undifferentiated_USCs**
 
-| Folder / Script | Description |
+| Folder / Scripts | Description |
 |---|---|
 | `differential_expression/undifferentiated_USCs/*.R` | Differential expression analysis of undifferentiated USCs. |
 
@@ -57,7 +58,7 @@ Differential gene expression analyses were performed for multiple experimental c
 
 ### **differentiation**
 
-| Folder / Script | Description |
+| Folder / Scripts | Description |
 |---|---|
 | `differential_expression/differentiation/*.R` | Differential expression analyses across differentiation conditions. |
 
@@ -65,7 +66,7 @@ Differential gene expression analyses were performed for multiple experimental c
 
 ### **LiCl_rescue**
 
-| Folder / Script | Description |
+| Folder / Scripts | Description |
 |---|---|
 | `differential_expression/LiCl_rescue/*.R` | Differential expression analysis of LiCl rescue experiments assessing modulation of WNT signaling. |
 
@@ -73,7 +74,7 @@ Differential gene expression analyses were performed for multiple experimental c
 
 ## WGCNA
 
-| Folder / Script | Description |
+| Folder / Scripts | Description |
 |---|---|
 | `WGCNA/*.R` | Weighted gene co-expression network analysis to identify gene modules associated with experimental conditions and phenotypes. |
 
@@ -89,9 +90,16 @@ Differential gene expression analyses were performed for multiple experimental c
 
 ## qPCR
 
-| Folder / Script | Description |
+| Folder / Scripts | Description |
 |---|---|
 | `qPCR/*.R` | qPCR data processing, normalization, and statistical analysis. |
+
+---
+## qPCR
+
+| Folder / Scripts | Description |
+|---|---|
+| `Imaging/*.ijm` | Size measurements of chondrogenic spheroids. |
 
 ---
 
