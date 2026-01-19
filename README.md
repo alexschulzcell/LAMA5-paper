@@ -96,6 +96,7 @@ Differential gene expression analyses were performed for multiple experimental c
 ---
 
 ## Repository tree
+<pre>
 .
 ├── QC/
 ├── differential_expression/
@@ -107,6 +108,7 @@ Differential gene expression analyses were performed for multiple experimental c
 ├── WGCNA/
 ├── analysis_of_references/
 └── qPCR/
+</pre>
 
 
 ---
