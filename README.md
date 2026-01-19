@@ -11,12 +11,13 @@ Most analyses are independent and can be run separately.
 
 The repository is organized into the following main folders:
 
+- `Imaging/` – Macros used for spheroid size measurements
 - `QC/` – quality control analyses  
 - `differential_expression/` – differential gene expression analyses  
 - `WGCNA/` – weighted gene co-expression network analysis  
 - `analysis_of_references/` – analyses using external reference datasets  
 - `qPCR/` – quantitative PCR analyses
-- `Imaging/` – Macros used for spheroid size measurements
+
 
 ---
 ## Imaging
