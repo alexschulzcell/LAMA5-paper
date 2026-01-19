@@ -35,7 +35,7 @@ Differential gene expression analyses were performed for multiple experimental c
 
 | Folder / Script | Description |
 |---|---|
-| `differential_expression/all_celltypes/*.R` | Differential expression analysis across all profiled cell types. |
+| `differential_expression/all_celltypes/*.R` | Differential expression analysis across all profiled cell types (Undifferentiated, chondrogenic, osteogenic). |
 
 ---
 
@@ -59,7 +59,7 @@ Differential gene expression analyses were performed for multiple experimental c
 
 | Folder / Script | Description |
 |---|---|
-| `differential_expression/differentiation/*.R` | Differential expression analyses across differentiation conditions or time courses. |
+| `differential_expression/differentiation/*.R` | Differential expression analyses across differentiation conditions. |
 
 ---
 
