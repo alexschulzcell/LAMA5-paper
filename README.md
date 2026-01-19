@@ -96,6 +96,7 @@ Differential gene expression analyses were performed for multiple experimental c
 ---
 
 ## Repository tree
+.
 ├── QC/
 ├── differential_expression/
 │   ├── all_celltypes/
