@@ -19,7 +19,13 @@ The repository is organized into the following main folders:
 - `Imaging/` – Macros used for spheroid size measurements
 
 ---
+## Imaging
 
+| Folder / Scripts | Description |
+|---|---|
+| `Imaging/*.ijm` | Size measurements of chondrogenic spheroids. |
+
+---
 ## QC
 
 | Folder / Scripts | Description |
@@ -95,17 +101,12 @@ Differential gene expression analyses were performed for multiple experimental c
 | `qPCR/*.R` | qPCR data processing, normalization, and statistical analysis. |
 
 ---
-## qPCR
 
-| Folder / Scripts | Description |
-|---|---|
-| `Imaging/*.ijm` | Size measurements of chondrogenic spheroids. |
-
----
 
 ## Repository tree
 <pre>
 .
+├── Imaging/
 ├── QC/
 ├── differential_expression/
 │   ├── all_celltypes/
@@ -115,8 +116,8 @@ Differential gene expression analyses were performed for multiple experimental c
 │   └── undifferentiated_USCs/
 ├── WGCNA/
 ├── analysis_of_references/
-├── qPCR/
-└── Imaging/
+└── qPCR/
+
 </pre>
 
 
